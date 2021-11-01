@@ -33,6 +33,14 @@ Tooplate 2115 Marvel
 https://www.tooplate.com/view/2115-marvel
 
 -->
+<style>
+  .project-info{
+    border-radius: 5%;
+    box-shadow:5px -3px 9px 0px #3E3F3B;
+    padding: 30px;
+    margin: 20px;
+  }
+</style>
 </head>
 
 <body>
