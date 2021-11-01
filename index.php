@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once('config/connect.php');
 require_once('functions/functions.php');
 ?>
@@ -10,12 +10,12 @@ require_once('functions/functions.php');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>MICHAEL'S PORTFOLIO SITE</title>
-	<meta name="description" content="<?= 'Software developer portfolio site' ?>">
-	<!-- <meta property='og:title' content="PORTFOLIO SITE"> -->
-	<meta property='og:url' content="https://techac.net/tap">
-	<meta property='og:image' itemprop="image" content="https://techac.net/tatb/assets/images/mike.jpg">
-	<meta property='keywords' content="Orji Michael, Michael, Chukwuebuka, Tech Acoustic, TAP, Tech Portfolio, Tech, Science, Computers">
-	<meta name="author" content="Orji Michael Chukwuebuka at Tech Acoustic">
+  <meta name="description" content="<?= 'Software developer portfolio site' ?>">
+  <!-- <meta property='og:title' content="PORTFOLIO SITE"> -->
+  <meta property='og:url' content="https://techac.net/tap">
+  <meta property='og:image' itemprop="image" content="https://techac.net/tatb/assets/images/mike.jpg">
+  <meta property='keywords' content="Orji Michael, Michael, Chukwuebuka, Tech Acoustic, TAP, Tech Portfolio, Tech, Science, Computers">
+  <meta name="author" content="Orji Michael Chukwuebuka at Tech Acoustic">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/unicons.css">
@@ -132,7 +132,8 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <img src="images/project/techblog.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/tatb/">
+                  <img src="images/project/techblog.png" class="img-fluid" alt="project image"></a>
               </div>
               <h3 class="mt-5 mb-5">Tech Blog</h3>
             </div>
@@ -142,7 +143,9 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <img src="images/project/currency.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/apps.php">
+                  <img src="images/project/currency.png" class="img-fluid" alt="project image">
+                </a>
               </div>
               <h3 class="mt-5 mb-5">Android Currency Converter</h3>
             </div>
@@ -152,9 +155,11 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <img src="images/project/list.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/apps.php">
+                  <img src="images/project/list.png" class="img-fluid" alt="project image">
+                </a>
               </div>
-              <h3 class="mt-5 mb-5">Android List App</h3>
+              <h3 class=" mb-5">Android List App</h3>
             </div>
             <!-- end of item -->
 
@@ -162,7 +167,9 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <img src="images/project/landing.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/">
+                  <img src="images/project/landing.png" class="img-fluid" alt="project image">
+                </a>
               </div>
               <h3 class="mt-5 mb-5">Landing Page</h3>
             </div>
@@ -172,19 +179,21 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <img src="images/project/admincms.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/tatb/">
+                  <img src="images/project/admincms.png" class="img-fluid" alt="project image">
+                </a>
               </div>
               <h3 class="mt-5 mb-5">Admin Content Management System</h3>
             </div>
             <!-- end of item -->
 
             <!-- item start -->
-            <div class="item">
+            <!-- <div class="item">
               <div class="project-info">
                 <img src="images/project/gpcalculator.png" class="img-fluid" alt="project image">
               </div>
               <h3 class="mt-5 mb-5">Desktop GPA Calculator</h3>
-            </div>
+            </div> -->
             <!-- end of item -->
 
           </div>
@@ -400,7 +409,7 @@ https://www.tooplate.com/view/2115-marvel
       <div class="row">
 
         <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy;  <?php echo date('Y') ?> Tech Acoustic. All rights reserved</p>
+          <p class="copyright-text text-center">Copyright &copy; <?php echo date('Y') ?> Tech Acoustic. All rights reserved</p>
           <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://techac.net/">Orji Michael Chukwuebuka</a></p>
         </div>
 
