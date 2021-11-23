@@ -1,6 +1,7 @@
 <?php
 require_once('config/connect.php');
 require_once('functions/functions.php');
+$datamissing = processQuote($_POST);
 ?>
 <!doctype html>
 <html lang="en">
@@ -33,14 +34,23 @@ Tooplate 2115 Marvel
 https://www.tooplate.com/view/2115-marvel
 
 -->
-<style>
-  .project-info{
-    border-radius: 5%;
-    box-shadow:5px -3px 9px 0px #3E3F3B;
-    padding: 30px;
-    margin: 20px;
-  }
-</style>
+  <style>
+    .project-info {
+      border-radius: 5%;
+      box-shadow: 5px -3px 9px 0px #3E3F3B;
+      padding: 30px;
+      margin: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .project-info {
+        border-radius: 5%;
+        box-shadow: 5px -3px 9px 0px #3E3F3B;
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -196,6 +206,18 @@ https://www.tooplate.com/view/2115-marvel
             <!-- end of item -->
 
             <!-- item start -->
+            <div class="item">
+
+              <div class="project-info">
+                <a target="_blank" href="https://techac.net/tapq/">
+                  <img src="images/project/tapq.png" class="img-fluid" alt="project image">
+                </a>
+              </div>
+              <h3 class="mt-5 mb-5">ESUT Past Question Website</h3>
+            </div>
+            <!-- end of item -->
+
+            <!-- item start -->
             <!-- <div class="item">
               <div class="project-info">
                 <img src="images/project/gpcalculator.png" class="img-fluid" alt="project image">
@@ -293,7 +315,7 @@ https://www.tooplate.com/view/2115-marvel
                 <span>2020</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Web Development</span><small>Aptech, Enugu</small></h3>
+                <h3><span>HTML, CSS, JavaScript, PHP, MySQL, jQuery, and Bootstrap</span><small>Aptech, Enugu</small></h3>
                 <p>Learnt multiple web development skills, including HTML, CSS, JavaScript, PHP & MySQL
                 </p>
               </div>
@@ -304,7 +326,7 @@ https://www.tooplate.com/view/2115-marvel
                 <span>2019</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Android App Development</span><small>Android Studio</small></h3>
+                <h3><span>Android App Development</span><small>Google Docs</small></h3>
                 <p>Learnt how to build android apps with Android Studio through Multiple resources, most especially
                   Google Docs, then built two android apps with it.
                 </p>
@@ -384,23 +406,27 @@ https://www.tooplate.com/view/2115-marvel
         <div class="col-lg-6 col-12">
           <div class="contact-form">
             <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-            <form action="" method="get">
+            <?php if (isset($_POST['submit'])) {
+						showDataMissing($datamissing, 1);
+					} else {
+						showDataMissing($datamissing);
+					} ?>
+            <form action="" method="post">
               <div class="row">
                 <div class="col-lg-6 col-12">
-                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  <input required type="text" class="form-control" name="name" placeholder="Your Name" id="name">
                 </div>
 
                 <div class="col-lg-6 col-12">
-                  <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  <input required type="email" class="form-control" name="email" placeholder="Email" id="email">
                 </div>
 
                 <div class="col-12">
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  <textarea required name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
                 </div>
 
                 <div class="ml-lg-auto col-lg-5 col-12">
-                  <input type="submit" class="form-control submit-btn" value="Send">
+                  <input type="submit" name="submit" class="form-control submit-btn" value="Send">
                 </div>
               </div>
             </form>
