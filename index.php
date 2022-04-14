@@ -10,11 +10,12 @@ $datamissing = processQuote($_POST);
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>MICHAEL'S PORTFOLIO SITE</title>
-  <meta name="description" content="<?= 'Software developer portfolio site' ?>">
+  <title>Orji Michaels Portfolio Site</title>
+  <meta name="description" content="Experienced Freelance Programmer with a lot of live projects under his belt.
+Also Skilled in Writing, Teamwork, Engineering, Computing, and Core Programming; With Bachelor of Science - BSc focused in Computer Engineering.">
   <!-- <meta property='og:title' content="PORTFOLIO SITE"> -->
   <meta property='og:url' content="https://techac.net/tap">
-  <meta property='og:image' itemprop="image" content="https://techac.net/tatb/assets/images/mike.jpg">
+  <meta property='og:image' itemprop="image" content="https://techac.net/tap/images/project/mike.jpg">
   <meta property='keywords' content="Orji Michael, Michael, Chukwuebuka, Tech Acoustic, TAP, Tech Portfolio, Tech, Science, Computers">
   <meta name="author" content="Orji Michael Chukwuebuka at Tech Acoustic">
 
@@ -151,7 +152,7 @@ https://www.tooplate.com/view/2115-marvel
 
               <div class="project-info">
                 <a target="_blank" href="https://techac.net/tatb/">
-                  <img src="images/project/techblog.png" class="img-fluid" alt="project image"></a>
+                  <img src="images/project/tatb.jpeg" class="img-fluid" alt="project image"></a>
               </div>
               <h3 class="mt-5 mb-5">Tech Blog</h3>
             </div>
@@ -161,8 +162,8 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <a target="_blank" href="https://techac.net/apps.php">
-                  <img src="images/project/currency.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/assets/TA_Currency.apk">
+                  <img src="images/project/currency.jpeg" class="img-fluid" alt="project image">
                 </a>
               </div>
               <h3 class="mt-5 mb-5">Android Currency Converter</h3>
@@ -173,8 +174,8 @@ https://www.tooplate.com/view/2115-marvel
             <div class="item">
 
               <div class="project-info">
-                <a target="_blank" href="https://techac.net/apps.php">
-                  <img src="images/project/list.png" class="img-fluid" alt="project image">
+                <a target="_blank" href="https://techac.net/assets/TA_List.apk">
+                  <img src="images/project/list.jpeg" class="img-fluid" alt="project image">
                 </a>
               </div>
               <h3 class=" mb-5">Android List App</h3>
@@ -186,22 +187,10 @@ https://www.tooplate.com/view/2115-marvel
 
               <div class="project-info">
                 <a target="_blank" href="https://techac.net/">
-                  <img src="images/project/landing.png" class="img-fluid" alt="project image">
+                  <img src="images/project/landing.jpeg" class="img-fluid" alt="project image">
                 </a>
               </div>
-              <h3 class="mt-5 mb-5">Landing Page</h3>
-            </div>
-            <!-- end of item -->
-
-            <!-- item start -->
-            <div class="item">
-
-              <div class="project-info">
-                <a target="_blank" href="https://techac.net/tatb/">
-                  <img src="images/project/admincms.png" class="img-fluid" alt="project image">
-                </a>
-              </div>
-              <h3 class="mt-5 mb-5">Admin Content Management System</h3>
+              <h3 class="mt-5 mb-5">Company Landing Page</h3>
             </div>
             <!-- end of item -->
 
@@ -210,10 +199,36 @@ https://www.tooplate.com/view/2115-marvel
 
               <div class="project-info">
                 <a target="_blank" href="https://techac.net/tapq/">
-                  <img src="images/project/tapq.png" class="img-fluid" alt="project image">
+                  <img src="images/project/admincms.jpeg" class="img-fluid" alt="project image">
+                </a>
+              </div>
+              <h3 class="mt-5 mb-5">Admin Content Management System</h3>
+              <!-- <p>This is the cms for a site that collects and sorts past questions, as you can see, the data is well arrranged into rows and columns, i did this with an mini code framework called dataTables.</p> -->
+            </div>
+            <!-- end of item -->
+
+            <!-- item start -->
+            <div class="item">
+
+              <div class="project-info">
+                <a target="_blank" href="https://techac.net/tapq/">
+                  <img src="images/project/tapq.jpeg" class="img-fluid" alt="project image">
                 </a>
               </div>
               <h3 class="mt-5 mb-5">ESUT Past Question Website</h3>
+            </div>
+            <!-- end of item -->
+
+
+            <!-- item start -->
+            <div class="item">
+
+              <div class="project-info">
+                <a target="_blank" href="https://techac.net/tats/">
+                  <img src="images/project/tats.jpeg" class="img-fluid" alt="project image">
+                </a>
+              </div>
+              <h3 class="mt-5 mb-5">Live Electronics E-Commerce Store</h3>
             </div>
             <!-- end of item -->
 
@@ -252,6 +267,16 @@ https://www.tooplate.com/view/2115-marvel
                   fermentum nunc, a faucibus nunc.</p>
               </div>
             </div> -->
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2021/2022</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>IT Support and Networking Internship</span><small>UNTH - Health Station</small></h3>
+                <p>Worked with very skilled Engineers and IT specialists in the University of Nigeria Teaching Hospital, Ituku Ozalla. I was trained in the use of their electronic patient clerking system and how it helps makes treatment and hospitalization fast and stress free. I also learnt so much about networking and how complex systems can be distributed accross multiple points while still retaining maximum speed. I was also trained in staff and patient relations, guiding doctors, nurses and patients alike on the use of the e-clerking system.
+                </p>
+              </div>
+            </div>
 
             <div class="timeline-wrapper">
               <div class="timeline-yr">
@@ -273,9 +298,7 @@ https://www.tooplate.com/view/2115-marvel
               </div>
               <div class="timeline-info">
                 <h3><span>Creative Writing and Tutoring</h3>
-                <p>Educated my followers on Computer Engineering topics, using a blog and my social media accounts and
-                  also
-                  Tutored many people in programming.</p>
+                <p>Educated my followers on Computer Engineering topics, using a blog and my social media accounts. This is a link to my <a href="https://tatb.hashnode.dev/">Blog</a>(hosted on Hashnode)</p>
               </div>
             </div>
 
@@ -284,9 +307,8 @@ https://www.tooplate.com/view/2115-marvel
                 <span>2018</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Fullstack Developer</h3>
-                <p>Built numerous software, both frontend and backend. Including desktop apps, android apps, and
-                  numerous websites.
+                <h3><span>Fullstack Development</h3>
+                <p>I've built numerous software, both frontend and backend; Including design, logic and database management for desktop apps, android apps, and numerous websites.
                 </p>
               </div>
             </div>
@@ -298,14 +320,23 @@ https://www.tooplate.com/view/2115-marvel
           <h2 class="mb-4 mobile-mt-2">Educations and Skills</h2>
 
           <div class="timeline">
-            <!-- 
             <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2022</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>C#</span><small>Mosh Hamedani, Udemy</small></h3>
+                <p>Currently studying desktop, mobile, and web development with C#</p>
+              </div>
+            </div>
+
+            <!-- <div class="timeline-wrapper">
               <div class="timeline-yr">
                 <span>2021</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Creative Writing</span><small>Blog</small></h3>
-                <p>I've made multiple articles that feature mainly on my blog and social media accounts 
+                <h3><span>Networking</span><small>UNTH - Health Station</small></h3>
+                <p>
                 </p>
               </div>
             </div> -->
@@ -407,10 +438,10 @@ https://www.tooplate.com/view/2115-marvel
           <div class="contact-form">
             <h2 class="mb-4">Interested to work together? Let's talk</h2>
             <?php if (isset($_POST['submit'])) {
-						showDataMissing($datamissing, 1);
-					} else {
-						showDataMissing($datamissing);
-					} ?>
+              showDataMissing($datamissing, 1);
+            } else {
+              showDataMissing($datamissing);
+            } ?>
             <form action="" method="post">
               <div class="row">
                 <div class="col-lg-6 col-12">
